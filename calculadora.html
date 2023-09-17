@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- direcciones de cada operacion-->
+    <script type="text/JavaScript" src="js/calculadora.js"> </script>   
+    
+    <title>Document</title>
+     <!-- hoja de estilo css -->
+     <link rel="stylesheet" href="estilos_css/estilo_calculadora.css">
+</head>
+<body>
+    
+    <br><br><br>
+
+    <div class="botonc">
+      <a href="index.html"> <input type="button" value="Atras"></a>
+    </div>
+
+    <div class="calculadora"> <!-- identificacion mediante clases de la calculadora-->
+        <h1> Calculadora </h1> <!-- titulo -->
+    <form name="Form"> <!-- etiqueta formulario (inngraso de datos)-->
+        <input type="text" name="numero1" size="2"> <!-- recibe un dato-->
+        <input type="text" name="numero2" size="2"> <!-- recube un dato-->
+        <input type="text" name="resultado" size="2"> <!-- muestra resultado operacion--> 
+        <input type="button" value=" + " onclick="sumar ()">   <!-- boton permite hacer operacion--> 
+        <input type="button" value=" - " onclick="restar ()">
+        <input type="button" value=" x " onclick="multiplicar ()">
+        <input type="button" value=" / " onclick="dividir ()">
+        <input type="button" value=" % " onclick="modulo ()">
+    </form>
+
+    
+  </div>
+</body>
+
+</html>

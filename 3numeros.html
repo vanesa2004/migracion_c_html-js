@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 3numeros </title>
+    <!-- llamado de las funciones de javascript -->
+    <script type="text/JavaScript" src="js/3numeros.js"> </script>
+    <!-- llamado de las funciones del css -->
+    <link rel="stylesheet" href="/estilos_css/estilo_3numeros.css">
+
+</head>
+<body>
+     <br>
+    <div class="devolver">
+        <a href="menu.html"> <input type="button" value="Atras"></a>
+    </div>
+
+    <div class="tresnum">
+      <h1> Menor, Intermedio y Mayor </h1>
+      <form name="form1">
+         <p> Ingrese los tres numeros a comparar </p> 
+         <input type="text" name="numero1" size="3">  <input type="text" name="numero2" size="3"> <input type="text" name="numero3" size="3"> <br><br>
+
+         <input type="button" value="ver resultado" onclick="tresnum()" >
+
+         <p> Numero menor </p>
+         <input type="text" name="men" size="1">
+
+         <p> Numero intermedio </p>
+         <input type="text" name="inter" size="1">
+
+         <p> Numero mayor </p>
+         <input type="text" name="may" size="1">  
+
+         <label id="iguales"></label>
+         <label id="ig"></label>
+            
+        </form>
+    </div>
+
+</body>         
+</html>

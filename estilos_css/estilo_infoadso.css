@@ -1,0 +1,59 @@
+body{ /* fondo de (informacion) */
+    background-image: url('../imagenes/fondo2.jpeg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boton{ /* contenedor de  boton (atras)) */
+    margin-left: 50px;
+}
+
+h1{ /* define titulo ( analisis y dessollo de fofware ) */
+    text-align: center;
+    font-family: cursive;
+}
+
+.tabla1,th,td{ /* tabla1 ( diagrama, descripcion) */
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: #5195e93e ;
+    
+}
+
+.tabla1 th,td{ 
+    padding: 10px;   
+}
+
+.tabla1{ 
+    margin: 50px;
+}
+
+.analisis{ /* pertenece a primer celda de analisis*/
+    background-color: #25cb20d9;
+}
+
+.desarrollo{ /* pertenece a segunda celda de dessarrollo */
+    background-color: #f52626fd;
+}
+
+.codificacion{ /* pertenece a tercera celda de codificacion */
+    background-color: #f15a0ed9;
+}
+
+.implementacion{ /* pertenece a cuata celda de implementacion */
+    background-color: #44f53ed9;
+}
+
+.evaluacion{ /* pertenece a quinta celda de evaluacion */
+    background-color: #25cb20d9;
+}
+
+.tabla2{ /* tabla2 informacion (nombre,formacion..) */
+    background-color: #5195e93e;
+    border-collapse: collapse; 
+    margin: 50px; 
+    text-align: center;
+}

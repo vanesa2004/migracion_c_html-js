@@ -1,0 +1,25 @@
+body{  /* fondo de la pagina   */
+    background-image: url('../imagenes/fondo1.jpeg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+.botonc{  /* boton atras  */
+    margin-left: 50px;
+}
+
+.calculadora h1{  /* titulo   */
+    font-family: cursive;
+}
+
+.calculadora {  
+    border: 2px solid #000;
+    padding: 15px;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(107, 175, 214, 0.26);   
+}
+

@@ -1,0 +1,31 @@
+body{ /* fondo de pagina */
+    background-image: url('../imagenes/fondo_menu.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+h1{ /*  titulo de la pagina (menu) */
+    text-align: center;
+    font-family: cursive;
+}
+
+.volver{ /* boton de (atras) */
+    margin-left: 65px;
+}
+
+.lista{ /* opciones de menu */
+    font-family: cursive;
+    
+}
+
+.lista a{    
+    text-decoration: none;
+    color: black;
+    
+}
+
+.lista ul{ /* pertenece a las listas */
+    margin-left: 50px;
+}

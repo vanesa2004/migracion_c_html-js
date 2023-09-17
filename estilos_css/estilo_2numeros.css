@@ -1,0 +1,25 @@
+body{
+
+}
+
+.volver{
+    margin-left: 50px;
+}
+
+.clase h1{  /* titulo */
+    text-align: center;
+    font-family: cursive;
+}
+
+.clase{
+    border: 2px solid #000;
+    padding: 50px;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    font-family: cursive;
+
+}
+
+
+

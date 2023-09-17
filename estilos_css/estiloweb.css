@@ -1,0 +1,75 @@
+/* define fondo */
+body{
+    background-image: url('../imagenes/fondo4.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+/* contenedor de titulo (mi web) */
+.contenido{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenido a{ /* contenedor de link (opciones) */
+    font-family: cursive;
+}
+/* contenedor de lista */
+.contenido ul{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;  
+    text-align: center;  
+}
+/* contenedor titulo  */
+#titulo{
+    color: black;
+    padding: 1px ;
+    font-family: cursive;   
+}
+/* define barro de navegacion de menu */
+#navegar{
+    background-color:black;
+    width: 500px;   
+}
+/*  */
+#navegar li{ /* define link de menu (informacio,calculadora) */
+    display: inline;   
+}
+
+#navegar a{ /* este contenedor es de (informacion,calculadora)  */
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20 px;
+    padding: 10px 20px 10px 0;    
+}
+
+h2{ /* titulo (adso) */
+    text-align: center;
+    font-family: cursive;
+}
+
+p{  /* contenedor de nombre (delly vanessa...)  */
+    text-align: center;
+    font-family: cursive;
+}
+
+hr{ /* linea  */
+    width: 500px;
+    color: azure;
+}
+
+.boton{ /* boton (otras) */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
